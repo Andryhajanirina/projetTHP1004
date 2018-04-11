@@ -4,7 +4,8 @@ def chiffre_de_cesar(word, shift)
 
         byte += shift
         byte = byte.chr.to_s
-        print byte.ord
+        byte = byte.ord
+       print char = byte.chr
     end
 end
 
